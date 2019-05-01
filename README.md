@@ -3,6 +3,7 @@ Simulation of Ultrassound signals on a Brain3D model using K-Wave
 
 
 ### K-Wave Toolbox
+Written by Bradley Treeby, Ben Cox, and Jiri Jaros
 
 k-Wave is an open source MATLAB toolbox designed for the time-domain 
 simulation of propagating acoustic waves in 1D, 2D, or 3D [1]. The toolbox
@@ -32,11 +33,11 @@ the references below.
 
 [1] B. E. Treeby and B. T. Cox, "k-Wave: MATLAB toolbox for the simulation 
 and reconstruction of photoacoustic wave-fields," J. Biomed. Opt., vol. 15,
-no. 2, p. 021314, 2010. 
+no. 2, p. 021314, 2010.<br><\br>
 [2] B. E. Treeby, J. Jaros, A. P. Rendell, and B. T. Cox, "Modeling 
 nonlinear ultrasound propagation in heterogeneous media with power law 
 absorption using a k-space pseudospectral method," J. Acoust. Soc. Am., 
-vol. 131, no. 6, pp. 4324-4336, 2012.
+vol. 131, no. 6, pp. 4324-4336, 2012.<br><\br>
 [3] B. E. Treeby and B. T. Cox, "Modeling power law absorption and 
 dispersion for acoustic propagation using the fractional Laplacian," J. 
 Acoust. Soc. Am., vol. 127, no. 5, pp. 2741-2748, 2010.
