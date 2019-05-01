@@ -1,11 +1,11 @@
 # Brain Ultrassound Simulation
-Simulation of Ultrassound signals on a 3D Brain model using K-Wave MATLAB toolbox.
+Simulation of Ultrassound signals on a 3D Brain model using K-Wave MATLAB toolbox.<br>
 
 ### Brain Model
 The brain model was downloaded from [scalablebrainatlas](https://scalablebrainatlas.incf.org/human/NMM1103).<br>
 A rough model with the skull can be created using the CreateSkull.m script, which uses morfological dilation operations.<br>
 The simulation medium proprieties can be set using masked operations using the values from the brain model.
-![BrainModel](https://i.imgur.com/IaexuvH.png)<br>
+![BrainModel](https://i.imgur.com/IaexuvH.png)<br><br>
 
 
 ### Focusing Algorithm
@@ -15,12 +15,12 @@ The algorithm works by sending an ultrassound pulse from the target, which reach
 ![FocusingAlgorithm](https://i.imgur.com/cCXyAqC.png)<br>
 
 The transducers can be "placed" on the top of the skull/brain, by only to defining the number and spacing between array elements.<br>
-![TransducersFocus](https://i.imgur.com/P9sezeY.png)<br>
+![TransducersFocus](https://i.imgur.com/P9sezeY.png)<br><br>
 
 
 ### Results
 The maximum signal pressure was recorded at every point in the simulation array in order to determine the highest intensity points. VolumeViewer was then used to better visualize the results.
-![Results](https://i.imgur.com/ULS00cR.png)<br>
+![Results](https://i.imgur.com/ULS00cR.png)<br><br>
 
 
 
