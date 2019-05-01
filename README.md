@@ -11,7 +11,7 @@ The simulation medium proprieties can be set using masked operations using the v
 ### Focusing Algorithm
 A simple focusing algorithm was created in order to assert wether or not ultrassound signals could be focused, from an array of transducers, on a brain region, through the skull. <br>
 
-The algorithm works by sending an ultrassound pulse from the target, which reaches the transducers at diferent points in time. The diferent travel times are then used to calculate the delays between the ultrassound transducers. in practice, due to reflections, the same signal can reach a transducer multiple times, so all but the maximum values are ignores. The algorithm assumes the same travel path in both directions, which is not true in most cases, despite this, it achieves satisfatory results.
+The algorithm works by sending an ultrassound pulse from the target, which reaches the transducers at diferent points in time. The diferent travel times are then used to calculate the delays between the ultrassound transducers. In practice, due to interface reflections, the same signal can reach a transducer multiple times, so all but the maximum value are ignored. The algorithm assumes the same travel path in both directions, which is not true in most cases, despite this, it achieves satisfatory results.
 ![FocusingAlgorithm](https://i.imgur.com/cCXyAqC.png)<br>
 
 The transducers can be "placed" on the top of the skull/brain, by only to defining the number and spacing between array elements.<br>
