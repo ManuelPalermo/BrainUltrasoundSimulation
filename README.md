@@ -1,5 +1,5 @@
-# BrainUltrassoundSimulation
-Simulation of Ultrassound signals on a Brain3D model using K-Wave
+# Brain Ultrassound Simulation
+Simulation of Ultrassound signals on a 3D Brain model using K-Wave MATLAB toolbox.
 
 
 ### K-Wave Toolbox
@@ -33,11 +33,11 @@ the references below.
 
 [1] B. E. Treeby and B. T. Cox, "k-Wave: MATLAB toolbox for the simulation 
 and reconstruction of photoacoustic wave-fields," J. Biomed. Opt., vol. 15,
-no. 2, p. 021314, 2010.<br><\br>
+no. 2, p. 021314, 2010.<br>
 [2] B. E. Treeby, J. Jaros, A. P. Rendell, and B. T. Cox, "Modeling 
 nonlinear ultrasound propagation in heterogeneous media with power law 
 absorption using a k-space pseudospectral method," J. Acoust. Soc. Am., 
-vol. 131, no. 6, pp. 4324-4336, 2012.<br><\br>
+vol. 131, no. 6, pp. 4324-4336, 2012.<br>
 [3] B. E. Treeby and B. T. Cox, "Modeling power law absorption and 
 dispersion for acoustic propagation using the fractional Laplacian," J. 
 Acoust. Soc. Am., vol. 127, no. 5, pp. 2741-2748, 2010.
