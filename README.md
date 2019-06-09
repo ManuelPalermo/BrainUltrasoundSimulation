@@ -1,5 +1,5 @@
-# Brain Ultrassound Simulation
-Simulation of Ultrassound signals on a 3D Brain model using [K-Wave MATLAB toolbox](http://www.k-wave.org/) .<br>
+# Brain Ultrasound Simulation
+Simulation of Ultrasound signals on a 3D Brain model using [K-Wave MATLAB toolbox](http://www.k-wave.org/) .<br>
 
 ### Brain Model
 The brain model was downloaded from [scalablebrainatlas](https://scalablebrainatlas.incf.org/human/NMM1103).<br>
@@ -9,9 +9,9 @@ The simulation medium proprieties can be set using masked operations using the v
 
 
 ### Focusing Algorithm
-A simple focusing algorithm was created in order to assert wether or not ultrassound signals could be focused, from an array of transducers, on a brain region, through the skull. <br>
+A simple focusing algorithm was created in order to assert wether or not ultrasound signals could be focused, from an array of transducers, on a brain region, through the skull. <br>
 
-The algorithm works by sending an ultrassound pulse from the target, which reaches the transducers at diferent points in time. The diferent travel times are then used to calculate the delays between the ultrassound transducers. In practice, due to interface reflections, the same signal can reach a transducer multiple times, so all but the maximum value are ignored. The algorithm assumes the same travel path in both directions, which is not true in most cases, despite this, it achieves satisfatory results.
+The algorithm works by sending an ultrasound pulse from the target, which reaches the transducers at diferent points in time. The diferent travel times are then used to calculate the delays between the ultrasound transducers. In practice, due to interface reflections, the same signal can reach a transducer multiple times, so all but the maximum value are ignored. The algorithm assumes the same travel path in both directions, which is not true in most cases, despite this, it achieves satisfatory results.
 ![FocusingAlgorithm](https://i.imgur.com/cCXyAqC.png)<br>
 
 The transducers can be "placed" on the top of the skull/brain, by only to defining the number and spacing between array elements.<br>
